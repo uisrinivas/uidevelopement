@@ -1,0 +1,22 @@
+{
+  "name": "reaming",
+  "description": "reaming topices",
+  "main": "index.js",
+  "authors": [
+    "Srinivas <uisrinivas@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs/",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
