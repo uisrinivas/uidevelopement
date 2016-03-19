@@ -3,6 +3,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var babel = require('gulp-babel');
 var concat = require('gulp-concat');
 var sass = require('gulp-sass');
+const jasmine = require('gulp-jasmine');
 
 gulp.task('js', function () {
 	return gulp.src('public/js/**/*.js')
@@ -19,6 +20,11 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('public/css'));
 });
 
-gulp.task('default', ["js",'sass']);
+gulp.task('test', function(){
+	return gulp.src('test/**/*.js')
+	.pipe(jasmine())
+});
+
+gulp.task('default', ["js","sass","test"]);
 
 
