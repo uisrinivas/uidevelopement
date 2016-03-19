@@ -1,7 +1,28 @@
-boostrap
+BootStrap:
+- Javascript
+- UI bootstrap
 
 testing
-
-demo
+- Jasmine
+- Karma
+- Qunit
+- Protractor
 
 js
+- e.preventDefault()?
+- Event Handling
+- Exception Handling
+- Managing event listeners
+- Inheritance - Prototype
+- Design Patterns
+
+AngularJS
+- Providers
+- Exception Handlerws
+- Event Handlers
+- $cacheFactory.Cache, compile.directive.Attributes, $rootScope.Scope, form.FormController, ngModel.NgModelController, select.SelectContr   oller
+- Routers
+
+
+*Frameworks I need to know
+*Important Links and Resources
